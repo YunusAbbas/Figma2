@@ -1,0 +1,22 @@
+:root{
+    --darkblue: #252B42
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    background-color: var(--darkblue);
+}
+header a{
+    color: white;
+}
